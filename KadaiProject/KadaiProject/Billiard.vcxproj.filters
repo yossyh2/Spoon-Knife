@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c0b0ddce-cee5-4438-9735-89c5f8691af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{c6d3382f-6d74-4ec5-be86-154f29488cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{30eecb28-196b-4442-a810-70c8dad2ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{ea56f7c1-db02-4369-9477-d0134b8d0b8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\D3D12Billiard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\d3dx12.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXSample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXSampleHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32Application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CActBase.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CTaskManager.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\ITask.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CNonCopyable.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CActBall.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CActHole.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CActBar.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\CActFloor.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameResource.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleCamera.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StepTimer.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DXSample.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\CActBase.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\CTaskManager.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\ITask.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\CActBall.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\CActHole.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\CActBar.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\CActFloor.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameResource.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleCamera.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3D12Billiard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\shader_mesh_alt_pixel.hlsl">
+      <Filter>Asset</Filter>
+    </FxCompile>
+    <FxCompile Include="src\shader_mesh_simple_pixel.hlsl">
+      <Filter>Asset</Filter>
+    </FxCompile>
+    <FxCompile Include="src\shader_mesh_simple_vert.hlsl">
+      <Filter>Asset</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
